@@ -67,6 +67,7 @@
     "build:code": "rollup --config rollup.build.js",
     "build:watch": "rollup --watch --config rollup.build.js",
     "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "generate-examples-index": "generate-examples-index --config generate-examples-index.json",
     "style": "prettier --check .",
     "style-fix": "prettier --write .",
